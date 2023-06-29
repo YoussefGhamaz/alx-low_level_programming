@@ -4,7 +4,7 @@
  * _strncat - a function that concatonates two strings.
  *
  * @dest: pointer to destination input
- * @srs: pointer to source input
+ * @src: pointer to source input
  * @n: most number of bytes from @src
  *
  * Return: @dest
