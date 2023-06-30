@@ -19,7 +19,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	while (n2[i] != '\0')
 		j++;
 	if (i > j)
-		l =i;
+		l = i;
 	else
 		l = j;
 	if (l + 1 > size_r)
@@ -42,7 +42,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	}
 	if (d == 1)
 	{
-		r[l + 1] = '\0'
+		r[l + 1] = '\0';
 			if (l + 2 > size_r)
 				return (0);
 		while (l-- >= 0)
