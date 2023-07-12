@@ -23,6 +23,5 @@ char *_strdup(char *str)
 	for (r = 0; str[r]; r++)
 		ggg[r] = str[r];
 
-	free(ggg);
 	return (ggg);
 }
